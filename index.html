@@ -11,16 +11,73 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            color: #555;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
         }
         h1 {
             font-size: 3em;
             font-weight: bold;
+            text-align: center;
+        }
+        .footer-links, .header-links {
+            display: flex;
+            align-items: center;
+        }
+        .footer-links {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+        }
+        .header-links {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+        }
+        .footer-links a, .header-links a {
+            text-decoration: none;
+            color: #555;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .footer-links a:hover, .header-links a:hover {
+            text-decoration: underline;
+        }
+        .divider {
+            height: 1.7rem;
+            width: 0.14rem;
+            background-color: black;
+            opacity: 0.5;
+            margin: 0 14px;
+        }
+        .top-link {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            text-decoration: none;
+            color: #555;
+            font-size: 1.4em;
+        }
+        .top-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <h1>S O L A R L I N K</h1>
+
+    <a href="/docs.html" class="top-link">Docs</a>
+    
+    <div class="header-links">
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <div class="divider"></div>
+        <a href="https://discord.com" target="_blank">Discord</a>
+    </div>
+
+    <div class="footer-links">
+        <a href="/terms.html">Terms</a>
+        <div class="divider"></div>
+        <a href="/privacy.html">Privacy</a>
+    </div>
 </body>
 </html>
