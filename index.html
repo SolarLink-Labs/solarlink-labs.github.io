@@ -20,27 +20,27 @@
             font-weight: bold;
             text-align: center;
         }
-        .footer-links, .header-links {
+        .terms-links, .socials-links {
             display: flex;
             align-items: center;
         }
-        .footer-links {
+        .terms-links {
             position: absolute;
             bottom: 30px;
             right: 30px;
         }
-        .header-links {
+        .socials-links {
             position: absolute;
-            top: 20px;
+            bottom: 30px;
             left: 30px;
         }
-        .footer-links a, .header-links a {
+        .terms-links a, .socials-links a {
             text-decoration: none;
             color: #555;
             font-size: 0.9em;
             margin: 0;
         }
-        .footer-links a:hover, .header-links a:hover {
+        .terms-links a:hover, .socials-links a:hover {
             text-decoration: underline;
         }
         .divider {
@@ -50,7 +50,7 @@
             opacity: 0.5;
             margin: 0 12px;
         }
-        .top-link {
+        .join-link {
             position: absolute;
             top: 20px;
             right: 30px;
@@ -58,18 +58,18 @@
             color: #555;
             font-size: 1em;
         }
-        .top-link:hover {
+        .join-link:hover {
             text-decoration: underline;
         }
-        .join-link {
+        .docs-link {
             position: absolute;
-            bottom: 30px;
+            top: 20px;
             left: 30px;
             text-decoration: none;
             color: #555;
             font-size: 1em;
         }
-        .join-link:hover {
+        .docs-link:hover {
             text-decoration: underline;
         }
     </style>
@@ -77,11 +77,11 @@
 <body>
     <h1>S O L A R L I N K</h1>
 
-    <a class="top-link" href="">J O I N</a>
+    <a class="join-link" href="">J O I N</a>
 
-    <a href="https://solarlink.gitbook.io/docs" class="join-link">D O C S</a>
+    <a href="https://solarlink.gitbook.io/docs" class="docs-link">D O C S</a>
     
-    <div class="header-links">
+    <div class="socials-links">
         <a href="https://x.com/solarlink_labs" target="_blank">Twitter</a>
         <div class="divider"></div>
         <a href="https://discord.com/invite/3RWC4CjHQJ" target="_blank">Discord</a>
@@ -89,7 +89,7 @@
         <a href="https://t.me/SolarLinkLabs" target="_blank">Telegram</a>
     </div>
 
-    <div class="footer-links">
+    <div class="terms-links">
         <a href="/terms.html">Terms</a>
         <div class="divider"></div>
         <a href="/privacy.html">Privacy</a>
